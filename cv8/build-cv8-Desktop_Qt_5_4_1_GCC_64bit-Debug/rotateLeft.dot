@@ -1,0 +1,32 @@
+digraph RBTree {
+node [color=lightblue2, style=filled];
+"3" [color=black, fontcolor=white]
+"3" -> "1"
+"1" [color=black, fontcolor=white]
+"1" -> "0"
+"0" [color=black, fontcolor=white]
+L0xb31030 [label="",color=white]
+0 -> L0xb31030
+R0xb31030 [label="",color=white]
+0 -> R0xb31030
+"1" -> "2"
+"2" [color=black, fontcolor=white]
+L0xb31090 [label="",color=white]
+2 -> L0xb31090
+R0xb31090 [label="",color=white]
+2 -> R0xb31090
+"3" -> "4"
+"4" [color=black, fontcolor=white]
+L0xb310f0 [label="",color=white]
+4 -> L0xb310f0
+"4" -> "5"
+"5" [color=black, fontcolor=white]
+L0xb31120 [label="",color=white]
+5 -> L0xb31120
+"5" -> "6"
+"6" [color=black, fontcolor=white]
+L0xb31150 [label="",color=white]
+6 -> L0xb31150
+R0xb31150 [label="",color=white]
+6 -> R0xb31150
+}

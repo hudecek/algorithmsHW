@@ -1,0 +1,8 @@
+digraph Heap {
+node [color=lightblue2, style=filled];
+"1"
+"1" -> "3"
+"3"
+"1" -> "4"
+"4"
+}

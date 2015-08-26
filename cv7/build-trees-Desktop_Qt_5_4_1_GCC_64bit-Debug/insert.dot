@@ -1,0 +1,20 @@
+digraph RBTree {
+node [color=lightblue2, style=filled];
+"4" [color=black, fontcolor=white]
+"4" -> "3"
+"3" [color=red]
+L0x12e7030 [label="",color=white]
+3 -> L0x12e7030
+R0x12e7030 [label="",color=white]
+3 -> R0x12e7030
+"4" -> "5"
+"5" [color=red]
+L0x12e7150 [label="",color=white]
+5 -> L0x12e7150
+"5" -> "9"
+"9" [color=red]
+L0x12e7090 [label="",color=white]
+9 -> L0x12e7090
+R0x12e7090 [label="",color=white]
+9 -> R0x12e7090
+}

@@ -1,0 +1,4 @@
+digraph BTree {
+node [shape = record,height=.-1];
+node0[label = "<f0> |1| <f1>"];
+}

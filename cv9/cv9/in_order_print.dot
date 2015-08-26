@@ -1,0 +1,20 @@
+digraph BTree {
+node [shape = record,height=.0];
+node0[label = "<f0> |12| <f1> |17| <f2> |22| <f3> |28| <f4> |35| <f5> |39| <f6> |65| <f7>"];
+node8[label = "<f0> |1| <f1> |3| <f2> |8| <f3>"];
+node9[label = "<f0> |13| <f1> |15| <f2> |16| <f3>"];
+node10[label = "<f0> |18| <f1> |19| <f2> |20| <f3> |21| <f4>"];
+node11[label = "<f0> |23| <f1> |24| <f2> |27| <f3>"];
+node12[label = "<f0> |29| <f1> |31| <f2> |32| <f3> |33| <f4> |34| <f5>"];
+node13[label = "<f0> |36| <f1> |37| <f2> |38| <f3>"];
+node14[label = "<f0> |40| <f1> |42| <f2> |47| <f3> |48| <f4> |50| <f5> |52| <f6> |56| <f7>"];
+node15[label = "<f0> |66| <f1> |67| <f2> |68| <f3> |69| <f4> |70| <f5> |73| <f6> |79| <f7>"];
+"node0":f0 -> "node8"
+"node0":f1 -> "node9"
+"node0":f2 -> "node10"
+"node0":f3 -> "node11"
+"node0":f4 -> "node12"
+"node0":f5 -> "node13"
+"node0":f6 -> "node14"
+"node0":f7 -> "node15"
+}
